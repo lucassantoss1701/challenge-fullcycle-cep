@@ -14,7 +14,7 @@ type Response struct {
 }
 
 func main() {
-	cep := "13167-612"
+	cep := "13167-616"
 	addressChan := make(chan *Response, 2)
 
 	go func() {
